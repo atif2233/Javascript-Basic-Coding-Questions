@@ -2,6 +2,10 @@
 This repository contains a collection of JavaScript basic coding questions suitable for beginners who are learning JavaScript programming. 
 
 
+## Development Status
+
+This repository is actively being developed, and new coding questions are added daily. Make sure to check back regularly for updates and new content.
+
 ## Purpose
 
 The purpose of this repository is to provide a collection of simple JavaScript coding questions along with their solutions. By working through these questions, you can:
