@@ -1,15 +1,4 @@
-// write a program to find square root of a number 
-
-// first what is square root 
-// The square root of a number is a value that, when multiplied by itself, gives the original number.  
-// The square root of 9 is 3, because 3X3 = 9 
-
-// second what is square 
-// The square of a number is the result of multiplying the number by itself. 
-// The square of 2 is 2×2 = 4
-
-// find square root of number in javscript 
-// there is a built in method Math.sqrt() in javascript to find square root of number 
+// Math.sqrt() Method: Utilizes the built-in Math.sqrt() method to compute the square root.
 
 var a = 9;
 console.log(Math.sqrt(a)); // 3 
