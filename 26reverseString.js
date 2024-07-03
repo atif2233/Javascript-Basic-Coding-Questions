@@ -1,14 +1,14 @@
-/**
- * Reverses a given string.
- * @param {string} str - The string to reverse.
- * @returns {string} - The reversed string.
- * @throws {TypeError} - If the input is not a string.
- */
 function reverse(str) {
-    if (typeof str !== 'string') {
-        throw new TypeError('Input must be a string');
-    }
-    return str.split('').reverse().join('');
+  if (typeof str !== "string") {
+    throw new console.error("input must be a string");
+  }
+  const strLength = str.length;
+  let reverseStr = "";
+  for (let i = strLength - 1; i >= 0; i--) {
+    reverseStr += str[i];
+  }
+  return reverseStr;
 }
-const str1 = "coding";
-console.log(reverse(str1));  // Output: gnidoc
+
+const str = "coding";
+console.log(reverse(str));//gnidoc
